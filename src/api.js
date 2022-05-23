@@ -3,37 +3,37 @@ const API_KEY = "0028c484df342eff029b694dc082a4cb";
 const categories = [
   {
     name: "trending",
-    title: "Em alta",
+    title: "Trending",
     path: `/trending/all/week?api_key=${API_KEY}&language=pt-BR`,
     isLarge: true,
   },
   {
     name: "netflixOriginals",
-    title: "Originais Netflix",
+    title: "Netflix Originals",
     path: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
     isLarge: false,
   },
   {
     name: "topRated",
-    title: "Populares",
+    title: "Top Rated",
     path: `/movie/top_rated?api_key=${API_KEY}&language=pt-BR`,
     isLarge: false,
   },
   {
     name: "comedy",
-    title: "Comédias",
+    title: "Comedy",
     path: `/discover/tv?api_key=${API_KEY}&with_genres=35`,
     isLarge: false,
   },
   {
     name: "romances",
-    title: "Romances",
+    title: "Romance",
     path: `/discover/tv?api_key=${API_KEY}&with_genres=10749`,
     isLarge: false,
   },
   {
     name: "documentaries",
-    title: "Documentários",
+    title: "Documentaries",
     path: `/discover/tv?api_key=${API_KEY}&with_genres=99`,
     isLarge: false,
   },
